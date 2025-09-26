@@ -13,7 +13,6 @@ import time
 import hashlib
 
 # Configuración del puerto
-import os
    PORT = int(os.environ.get('PORT', 8000))
 
 # Configuración API Clash of Clans - ACTUALIZADA
