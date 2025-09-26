@@ -1954,4 +1954,11 @@ def main():
             print("❌ No se pudieron guardar datos de emergencia")
 
 if __name__ == "__main__":
-    main()
+    # Para Render necesitamos inicializar sin toda la configuración compleja
+    load_daily_donations()
+    
+    # Iniciar solo el servidor básico
+    with socketserver.TCPServer(("0.0.0.0", PORT), RequestHandler) as httpd:
+        httpd.allow_reuse_address = True
+        print(f"Server running on port {PORT}")
+        httpd.serve_forever()
