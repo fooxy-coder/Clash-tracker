@@ -13,7 +13,7 @@ import time
 import hashlib
 
 # Configuración del puerto
-   PORT = int(os.environ.get('PORT', 8000))
+PORT = int(os.environ.get('PORT', 8000))
 
 # Configuración API Clash of Clans - ACTUALIZADA
 API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjUyMWI5YWRmLWYwNTItNDY3YS1iYTM1LWZjNmU3YmIxNTE1MCIsImlhdCI6MTc1ODg0MzQ1NCwic3ViIjoiZGV2ZWxvcGVyL2ZjNTE2YWY0LTA4YzUtYTUwYS1iNjA1LTA0NWJiN2Y2MWYxNyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIwMS4xNzguMjQxLjUiXSwidHlwZSI6ImNsaWVudCJ9XX0.glqyBEIJ5Z-6_n6q9YwuEt4VSjUJdAq0xY09UP2D-bHOAFbL6lG2xyfDdyiwcqMSiiLPGozXBq0-MdmsteJAXA"
